@@ -38,31 +38,3 @@ fetch(`https://www.dictionaryapi.com/api/v3/references/thesaurus/json/umpire?key
     })
     .catch(error => console.log("Wrong direction!" + error));
 
-
-// Current Weather
-const weatherSection = document.createElement('section');
-const weather_api_key = "756cd18420034f1191542750250210";
-
-fetch(`https://api.weatherapi.com/v1/current.json?key=${weather_api_key}&q=Incheon&aqi=yes`)
-    .then(response => response.json())
-    .then(data => {
-        urbanSection.innerHTML = `
-            <h1>Current Weather - Thesaurus</h1>
-            <h3>umpire</h3>
-            <p>${firstDefinition}</p>
-        `;
-        document.body.appendChild(merriamSection);
-    })
-    .catch(error => console.log("Wrong direction!" + error));
-
-
-// Urban Dictionary API
-const urbanSection = document.createElement('section');
-const urban_api_key = "";
-
-fetch(``)
-    .then(response => response.json())
-    .then(data => {
-        
-    })
-    .catch(error => console.log("Wrong direction!" + error));
