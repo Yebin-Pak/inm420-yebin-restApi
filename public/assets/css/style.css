@@ -1,0 +1,77 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+/* noonnu font */
+@import url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
+
+
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 2%;
+    border: 1px solid rgb(91, 105, 163);
+    background-color: rgba(91, 105, 163, 0.13);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+    color: rgb(91, 105, 163);
+}
+
+h3 {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-display: swap;
+    font-size: 30px;
+
+    color: rgb(91, 105, 163);
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    border: 0;
+    border-radius: 50px;
+    background-color: rgba(91, 105, 163, 0.418);
+
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-display: swap;
+    font-size: 15px;
+
+    color: white;
+
+    transition: 0.3s all ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(91, 105, 163);
+}
+
+img {
+    width: 50%;
+}
+
+p {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-display: swap;
+    font-size: 20px;
+
+    transition: 0.3s all ease-in-out;
+    display: none;
+}
+
+span {
+    font-weight: 500;
+    font-style: italic;
+}
